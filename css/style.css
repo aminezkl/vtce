@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-	min-width: 992px;
+	min-width: 400px;
 	max-width: 1440px;
 }
 
@@ -100,7 +100,7 @@ article {
 p {
 	font-family: 'Archivo';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 400px;
 	font-size: 16px;
 	line-height: 17px;
 	color: var(--drak-grey-color);
@@ -190,11 +190,41 @@ p {
 
 
 /***************************************/
-.imagesEquipee {
- width: 440px;
- height: 594px;
- border-radius: 50%; /* Rend l'image circulaire */
- 
+/* Pour les appareils mobiles jusqu'à une largeur de 767px */
+@media only screen and (max-width: 900px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        height: 400px; /* Ajustez la hauteur de l'en-tête pour les appareils mobiles */
+    }
+
+    h1 {
+        font-size: 36px; /* Réduire la taille de la police pour les appareils mobiles */
+        line-height: 1.2; /* Ajuster l'espacement des lignes */
+    }
+
+    .container {
+        width: 90%; /* Ajuster la largeur de la container pour les appareils mobiles */
+    }
+
+    article {
+        width: 90%; /* Ajuster la largeur de l'article pour les appareils mobiles */
+    }
+
+    .imagesEquipee {
+        width: 100%; /* Ajuster la largeur de l'image pour les appareils mobiles */
+        height: auto; /* Garder le ratio de l'image */
+        border-radius: 0; /* Supprimer la bordure arrondie pour les appareils mobiles */
+    }
+
+    .button {
+        padding: 15px 30px; /* Ajuster le rembourrage du bouton pour les appareils mobiles */
+        font-size: 14px; /* Réduire la taille de la police pour les appareils mobiles */
+    }
 }
+
 
 
