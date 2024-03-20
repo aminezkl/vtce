@@ -189,6 +189,33 @@ p {
 }
 
 
+
+/***************************************/
+/***************************************/
+
+.buttonVertColor {
+	color: #25d366;
+	border-color:  #25d366;
+}
+
+.sectionBienvenue {
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /***************************************/
 /* Pour les appareils mobiles jusqu'à une largeur de 767px */
 @media only screen and (max-width: 900px) {
