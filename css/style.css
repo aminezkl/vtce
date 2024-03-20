@@ -224,6 +224,34 @@ p {
         padding: 15px 30px; /* Ajuster le rembourrage du bouton pour les appareils mobiles */
         font-size: 14px; /* Réduire la taille de la police pour les appareils mobiles */
     }
+	/*****************************/
+	h2
+	{
+		font-size: 26px;
+
+		
+	}
+
+	h3 {
+		
+		font-size: 18px;
+	
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
