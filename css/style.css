@@ -235,22 +235,16 @@ p {
 	h3 {
 		
 		font-size: 18px;
-	
 		
 	}
 
+	.directionRow {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
 
-
-
-
-
-
-
-
-
-
-
+	}
 
 }
 
